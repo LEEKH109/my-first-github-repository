@@ -1,0 +1,45 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100vh;
+}
+
+li{list-style: none;}
+
+.discussion__container{
+   display: flex;
+   flex-direction: row;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   width: 540px;
+   background-color: bisque;
+}
+
+.discussion__avatar--wrapper,
+
+   .discussion__avatar--image{
+      width: 48px;
+      border-radius: 70%;
+      overflow: hidden;
+   }
+
+.discussion__content,
+   .discussion__title,
+   .discussion__information,
+
+.discussion__answered{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+
